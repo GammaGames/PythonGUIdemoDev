@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f36bee7e-23cb-420d-9cf7-ce43a238ff31" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PythonGUIdemoDev.iml" afterPath="$PROJECT_DIR$/.idea/PythonGUIdemoDev.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PythonGUIdemoDev.py" afterPath="$PROJECT_DIR$/PythonGUIdemoDev.py" />
     </list>
@@ -29,9 +27,9 @@
         <entry file="file://$PROJECT_DIR$/PythonGUIdemoDev.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
               <folding>
-                <element signature="e#574#588#0" expanded="true" />
+                <element signature="e#491#505#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -287,6 +285,14 @@
       <option name="presentableId" value="Default" />
       <updated>1472582743901</updated>
     </task>
+    <task id="LOCAL-00001" summary="Cleanup of various standards noncompliance (e.g. extra indentation on dosctrings, missing colons in sections at the top, missing or extraneous spaces, and extra lines).">
+      <created>1472837096703</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1472837096703</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -324,6 +330,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Cleanup of various standards noncompliance (e.g. extra indentation on dosctrings, missing colons in sections at the top, missing or extraneous spaces, and extra lines)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleanup of various standards noncompliance (e.g. extra indentation on dosctrings, missing colons in sections at the top, missing or extraneous spaces, and extra lines)." />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="1" />
@@ -336,7 +346,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#574#588#0" expanded="true" />
+            <element signature="e#491#505#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -350,9 +360,9 @@
     <entry file="file://$PROJECT_DIR$/PythonGUIdemoDev.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
           <folding>
-            <element signature="e#574#588#0" expanded="true" />
+            <element signature="e#491#505#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -3,11 +3,7 @@
 #
 # FILE:	   PythonGUIdemoDev.py
 #
-# DEVELOPMENT ENVIRONMENTS:
-# PyCharm Comm 2016.2.1
-#
-# EXECUTION ENVIRIONMENTS:
-# PyCharm Comm 2016.2.1
+# PYTHON VERSION: 2.7
 #
 # HISTORY:
 # Date		Author			Description
