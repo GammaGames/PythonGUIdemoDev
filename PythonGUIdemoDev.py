@@ -1,26 +1,27 @@
-# *************************************************************
+#*************************************************************
 # PROJECT: PythonGUIdemoDev
 #
-# FILE:	  PythonGUIdemoDev.py
+# FILE:	   PythonGUIdemoDev.py
 #
 # DEVELOPMENT ENVIRONMENTS:
-# PyCharm Comm 2016.2.2
+# PyCharm Comm 2016.2.1
 #
-# EXECUTION ENVIRIONMENTS
-# PyCharm Comm 2016.2.2
+# EXECUTION ENVIRIONMENTS:
+# PyCharm Comm 2016.2.1
 #
 # HISTORY:
 # Date		Author			Description
 # ====		======			===========
 # 09/1/16   Jesse Lieberg   Initial writing and MTM Standard
+# 09/2/16   Logan Warner    Standards compliance cleanup
 #
-# DESCRIPTION
+# DESCRIPTION:
 # Creates a test GUI
-# **************************************************************
+#**************************************************************
 
-# ---------------
+#---------------
 # Python imports
-# ---------------
+#---------------
 import Tkinter
 import tkMessageBox
 from Tkinter import *
@@ -28,19 +29,20 @@ from Tkinter import *
 
 def buttonTest(check, str):
     """
-    	Displays message with text
-    	"""
+    Displays message with text
+    """
     if check:
         tkMessageBox.showinfo("Test", str)
     else:
         tkMessageBox.showinfo("Test", "Hello world!")
+    # else
 # def buttonTest()
 
 
 def main():
     """
-    	Create a test GUI with various options
-    	"""
+    Create a test GUI with various options
+    """
     # Create main window for test application to display to
     window = Tkinter.Tk("test")
     window.wm_title("Test")
@@ -57,11 +59,11 @@ def main():
 
     # create button that calls the function buttonTest when pressed
     button = Tkinter.Button(window, text = "Display message", command = lambda: \
-            buttonTest(checkVar.get(), field.get()), cursor = "hand2")
+      buttonTest(checkVar.get(), field.get()), cursor = "hand2")
 
     # Configure grid to center elements
-    window.grid_columnconfigure(0, weight=1)
-    window.grid_columnconfigure(1, weight=1)
+    window.grid_columnconfigure(0, weight = 1)
+    window.grid_columnconfigure(1, weight = 1)
 
     # Add GUI elements to the window in a grid layout
     fieldLabel.grid(row = 0, column = 0, sticky = E)
