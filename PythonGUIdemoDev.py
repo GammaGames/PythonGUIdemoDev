@@ -10,6 +10,7 @@
 # ====		======			===========
 # 09/1/16   Jesse Lieberg   Initial writing and MTM Standard
 # 09/2/16   Logan Warner    Standards compliance cleanup
+# 09/12/16	Jesse & Logan	Standards compliance
 #
 # DESCRIPTION:
 # Creates a test GUI
@@ -18,11 +19,13 @@
 #---------------
 # Python imports
 #---------------
-import Tkinter
-import tkMessageBox
 from Tkinter import *
+from tkMessageBox import *
 
 
+#---------------
+# Local Functions
+#---------------
 def buttonTest(check, str):
     """
     Displays message with text
@@ -38,9 +41,17 @@ def buttonTest(check, str):
 def main():
     """
     Create a test GUI with various options
-    """
-    # Create main window for test application to display to
-    window = Tkinter.Tk("test")
+    ----------------------------------------------------
+	REQUIREMENTS:
+	R01.
+	
+	DESIGN
+	Algorithm
+	---------
+	A01 Create small, fixed window titled "Test"
+	A02
+	----------------------------------------------------"""
+    window = Tkinter.Tk("test")							#L01
     window.wm_title("Test")
     window.resizable(width = False, height = False)
     window.minsize(width = 200, height = 64)
@@ -55,7 +66,7 @@ def main():
 
     # create button that calls the function buttonTest when pressed
     button = Tkinter.Button(window, text = "Display message", command = lambda: \
-      buttonTest(checkVar.get(), field.get()), cursor = "hand2")
+		buttonTest(checkVar.get(), field.get()), cursor = "hand2")
 
     # Configure grid to center elements
     window.grid_columnconfigure(0, weight = 1)
