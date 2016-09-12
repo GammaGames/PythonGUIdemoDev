@@ -19,8 +19,9 @@
 #---------------
 # Python imports
 #---------------
+import Tkinter
+import tkMessageBox
 from Tkinter import *
-from tkMessageBox import *
 
 
 #---------------
@@ -66,7 +67,7 @@ def main():
 
     # create button that calls the function buttonTest when pressed
     button = Tkinter.Button(window, text = "Display message", command = lambda: \
-		buttonTest(checkVar.get(), field.get()), cursor = "hand2")
+      buttonTest(checkVar.get(), field.get()), cursor = "hand2")
 
     # Configure grid to center elements
     window.grid_columnconfigure(0, weight = 1)
