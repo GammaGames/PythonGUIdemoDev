@@ -28,12 +28,12 @@ from Tkinter import *
 # ---------------
 # Local Functions
 # ---------------
-def buttonTest(check, str):
+def buttonTest(checkPR, strPR):
     """
     Displays message with text
     """
-    if check:
-        tkMessageBox.showinfo("Test", str)
+    if checkPR:
+        tkMessageBox.showinfo("Test", strPR)
     else:
         tkMessageBox.showinfo("Test", "Hello world!")
     # else
