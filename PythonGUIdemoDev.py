@@ -11,6 +11,7 @@
 # 09/1/16   Jesse Lieberg   Initial writing and MTM Standard
 # 09/2/16   Logan Warner    Standards compliance cleanup
 # 09/12/16	Jesse & Logan	Standards compliance
+# 09/12/16  Logan Warner    PEP 8 compliance
 #
 # DESCRIPTION:
 # Creates a test GUI
