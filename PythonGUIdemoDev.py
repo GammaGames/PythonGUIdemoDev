@@ -44,7 +44,7 @@ def main():
     to use the text as the message."""
     '''----------------------------------------------------
     REQUIREMENTS:
-    R01.
+    R01 Create window with various UI elements
 
     DESIGN
     Algorithm
@@ -58,31 +58,26 @@ def main():
     ----------------------------------------------------'''
     window = Tkinter.Tk("test")                                           # L01
     window.wm_title("Test")
-    window.resizable(width=False, height=False)
     window.minsize(width=200, height=64)
+    window.resizable(width=False, height=False)
 
-    # Variables used for checkbox
     checkVar = BooleanVar()                                               # L02
     checkButton = Checkbutton(window,
                               text="Show field text?",
                               variable=checkVar)
 
-    # Create a label and field for entering text
     fieldLabel = Label(window, text="Message:")                           # L03
     field = Entry(window)
 
-    # create button that calls the function buttonTest when pressed
     button = Tkinter.Button(window,                                       # L04
                             text="Display message",
                             command=lambda: buttonTest(checkVar.get(),
                                                        field.get()),
                             cursor="hand2")
 
-    # Configure grid to center elements
     window.grid_columnconfigure(0, weight=1)                              # L05
     window.grid_columnconfigure(1, weight=1)
 
-    # Add GUI elements to the window in a grid layout
     fieldLabel.grid(row=0, column=0, sticky=E)
     field.grid(row=0, column=1, sticky=W)
     checkButton.grid(row=1, columnspan=2)
